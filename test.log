@@ -1,0 +1,343 @@
+        2771000   0        Seq               Begin       >       [0x7ad67, line 0x7ad40] ST
+        2771500   0    L1Cache               Store      I>IM     [0x7ad40, line 0x7ad40] 
+        2773500   0  Directory                GETX      E>NO_B_W [0x7ad40, line 0x7ad40] 
+        2813500   0  Directory         Memory_Data NO_B_W>NO_B   [0x7ad40, line 0x7ad40] 
+        2815000   0        Seq                Done       >       [0x7ad67, line 0x7ad40] 88 cycles
+        2815000   0    L1Cache      Exclusive_Data     IM>MM_W   [0x7ad40, line 0x7ad40] 0Directory-0
+        2815500   0    L1Cache All_acks_no_sharers   MM_W>MM     [0x7ad40, line 0x7ad40] 
+        2815500   0        Seq               Begin       >       [0x7ad66, line 0x7ad40] ST
+        2816000   0        Seq                Done       >       [0x7ad66, line 0x7ad40] 1 cycles
+        2816000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2816500   0        Seq               Begin       >       [0x7ad57, line 0x7ad40] ST
+        2817000   0        Seq                Done       >       [0x7ad57, line 0x7ad40] 1 cycles
+        2817000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2817500   0        Seq               Begin       >       [0x7ad56, line 0x7ad40] ST
+        2818000   0        Seq                Done       >       [0x7ad56, line 0x7ad40] 1 cycles
+        2818000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2818500   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] ST
+        2819000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+        2819000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2819500   0        Seq               Begin       >       [0x7ad55, line 0x7ad40] ST
+        2820000   0        Seq                Done       >       [0x7ad55, line 0x7ad40] 1 cycles
+        2820000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2820500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] ST
+        2821000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+        2821000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2821500   0  Directory            UnblockM   NO_B>NO     [0x7ad40, line 0x7ad40] L1Cache-0
+        2821500   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] ST
+        2822000   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        2822000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2822500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] ST
+        2823000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+        2823000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2823500   0        Seq               Begin       >       [0x7ad64, line 0x7ad40] ST
+        2824000   0        Seq                Done       >       [0x7ad64, line 0x7ad40] 1 cycles
+        2824000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2824500   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] ST
+        2825000   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+        2825000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2825500   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] ST
+        2826000   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+        2826000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2826500   0        Seq               Begin       >       [0x7ad66, line 0x7ad40] ST
+        2827000   0        Seq                Done       >       [0x7ad66, line 0x7ad40] 1 cycles
+        2827000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2827500   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] ST
+        2828000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+        2828000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2909500   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] ST
+        2910000   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        2910000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2953000   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] ST
+        2953500   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+        2953500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        2962000   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] LD
+        2962500   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        2962500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3007500   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] LD
+        3008000   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        3008000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3017000   0        Seq               Begin       >       [0x7ad56, line 0x7ad40] ST
+        3017500   0        Seq                Done       >       [0x7ad56, line 0x7ad40] 1 cycles
+        3017500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        3018000   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] ST
+        3018500   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+        3018500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        3026000   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] LD
+        3026500   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        3026500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3026500   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] LD
+        3027000   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+        3027000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3105500   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] LD
+        3106000   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        3106000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3319500   0        Seq               Begin       >       [0x7ad67, line 0x7ad40] ST
+        3320000   0        Seq                Done       >       [0x7ad67, line 0x7ad40] 1 cycles
+        3320000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        3320500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] ST
+        3321000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+        3321000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        3336000   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] LD
+        3336500   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+        3336500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3337500   0        Seq               Begin       >       [0x7ad55, line 0x7ad40] LD
+        3338000   0        Seq                Done       >       [0x7ad55, line 0x7ad40] 1 cycles
+        3338000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3338000   0        Seq               Begin       >       [0x7ad56, line 0x7ad40] LD
+        3338500   0        Seq                Done       >       [0x7ad56, line 0x7ad40] 1 cycles
+        3338500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3338500   0        Seq               Begin       >       [0x7ad57, line 0x7ad40] LD
+        3339000   0        Seq                Done       >       [0x7ad57, line 0x7ad40] 1 cycles
+        3339000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3339000   0        Seq               Begin       >       [0x7ad64, line 0x7ad40] LD
+        3339500   0        Seq                Done       >       [0x7ad64, line 0x7ad40] 1 cycles
+        3339500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3346000   0        Seq               Begin       >       [0x7ad56, line 0x7ad40] LD
+        3346500   0        Seq                Done       >       [0x7ad56, line 0x7ad40] 1 cycles
+        3346500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3347000   0        Seq               Begin       >       [0x7ad57, line 0x7ad40] LD
+        3347500   0        Seq                Done       >       [0x7ad57, line 0x7ad40] 1 cycles
+        3347500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3347500   0        Seq               Begin       >       [0x7ad64, line 0x7ad40] LD
+        3348000   0        Seq                Done       >       [0x7ad64, line 0x7ad40] 1 cycles
+        3348000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3348000   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] LD
+        3348500   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+        3348500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3348500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] LD
+        3349000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+        3349000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3349000   0        Seq               Begin       >       [0x7ad66, line 0x7ad40] LD
+        3349500   0        Seq                Done       >       [0x7ad66, line 0x7ad40] 1 cycles
+        3349500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3355000   0        Seq               Begin       >       [0x7ad66, line 0x7ad40] LD
+        3355500   0        Seq                Done       >       [0x7ad66, line 0x7ad40] 1 cycles
+        3355500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3356000   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] LD
+        3356500   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+        3356500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3356500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] LD
+        3357000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+        3357000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+        3615500   0        Seq               Begin       >       [0x7ad7c, line 0x7ad40] ST
+        3616000   0        Seq                Done       >       [0x7ad7c, line 0x7ad40] 1 cycles
+        3616000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+        4015500   0        Seq               Begin       >       [0x7ad7c, line 0x7ad40] LD
+        4016000   0        Seq                Done       >       [0x7ad7c, line 0x7ad40] 1 cycles
+        4016000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       59734500   0    L1Cache            L1_to_L2     MM>MM     [0x7ad40, line 0x7ad40] 
+       95543000   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] ST
+       95543500   0    L1Cache   Trigger_L2_to_L1D     MM>MMT    [0x7ad40, line 0x7ad40] 
+       95548500   0    L1Cache   Complete_L2_to_L1    MMT>MMR    [0x7ad40, line 0x7ad40] 
+       95548500   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 11 cycles
+       95548500   0    L1Cache               Store    MMR>MM     [0x7ad40, line 0x7ad40] 
+       95619500   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] ST
+       95620000   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       95620000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95620500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] ST
+       95621000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+       95621000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95621500   0        Seq               Begin       >       [0x7ad50, line 0x7ad40] ST
+       95622000   0        Seq                Done       >       [0x7ad50, line 0x7ad40] 1 cycles
+       95622000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95622500   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] ST
+       95623000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+       95623000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95720500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] ST
+       95721000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+       95721000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95723000   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] ST
+       95723500   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+       95723500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95814500   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] LD
+       95815000   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+       95815000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95815000   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] LD
+       95815500   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+       95815500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95815500   0        Seq               Begin       >       [0x7ad50, line 0x7ad40] LD
+       95816000   0        Seq                Done       >       [0x7ad50, line 0x7ad40] 1 cycles
+       95816000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95816000   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] LD
+       95816500   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+       95816500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95818000   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] LD
+       95818500   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+       95818500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95818500   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] LD
+       95819000   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       95819000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95819000   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] LD
+       95819500   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       95819500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       95825000   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] ST
+       95825500   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       95825500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95884000   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] ST
+       95884500   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       95884500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95885000   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] ST
+       95885500   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+       95885500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95928500   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] ST
+       95929000   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+       95929000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95929500   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] ST
+       95930000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+       95930000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95930500   0        Seq               Begin       >       [0x7ad50, line 0x7ad40] ST
+       95931000   0        Seq                Done       >       [0x7ad50, line 0x7ad40] 1 cycles
+       95931000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       95931500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] ST
+       95932000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+       95932000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96137500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] LD
+       96138000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+       96138000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96138000   0        Seq               Begin       >       [0x7ad50, line 0x7ad40] LD
+       96138500   0        Seq                Done       >       [0x7ad50, line 0x7ad40] 1 cycles
+       96138500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96138500   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] LD
+       96139000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+       96139000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96139000   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] LD
+       96139500   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+       96139500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96139500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] LD
+       96140000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+       96140000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96140000   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] LD
+       96140500   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       96140500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96140500   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] LD
+       96141000   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       96141000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96145500   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] ST
+       96146000   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       96146000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96285000   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] LD
+       96285500   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       96285500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96345000   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] ST
+       96345500   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       96345500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96377000   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] LD
+       96377500   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       96377500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96377500   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] LD
+       96378000   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       96378000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96389500   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] ST
+       96390000   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+       96390000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96390500   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] ST
+       96391000   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+       96391000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96391500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] ST
+       96392000   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+       96392000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96392500   0        Seq               Begin       >       [0x7ad53, line 0x7ad40] ST
+       96393000   0        Seq                Done       >       [0x7ad53, line 0x7ad40] 1 cycles
+       96393000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96393500   0        Seq               Begin       >       [0x7ad54, line 0x7ad40] ST
+       96394000   0        Seq                Done       >       [0x7ad54, line 0x7ad40] 1 cycles
+       96394000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96394500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] ST
+       96395000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+       96395000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+       96438500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] LD
+       96439000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+       96439000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+       96522000   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] ST
+       96522500   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+       96522500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      151530000   0    L1Cache            L1_to_L2     MM>MM     [0x7ad40, line 0x7ad40] 
+      159111500   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] LD
+      159112000   0    L1Cache   Trigger_L2_to_L1D     MM>MMT    [0x7ad40, line 0x7ad40] 
+      159114500   0    L1Cache                Load    MMT>MMT    [0x7ad40, line 0x7ad40] 
+      159117000   0    L1Cache   Complete_L2_to_L1    MMT>MMR    [0x7ad40, line 0x7ad40] 
+      159117000   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 11 cycles
+      159117000   0    L1Cache                Load    MMR>MM     [0x7ad40, line 0x7ad40] 
+      159673000   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] LD
+      159673500   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+      159673500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+      159673500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] LD
+      159674000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+      159674000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+      159681500   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] LD
+      159682000   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+      159682000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+      159682000   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] LD
+      159682500   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+      159682500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+      159686500   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] ST
+      159687000   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+      159687000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159688500   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] LD
+      159689000   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+      159689000   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
+      159692000   0        Seq               Begin       >       [0x7ad53, line 0x7ad40] FLUSH
+      159692500   0    L1Cache          Flush_line     MM>MM_F   [0x7ad40, line 0x7ad40] 
+      159694500   0  Directory                GETF     NO>NO_F   [0x7ad40, line 0x7ad40] 
+      159696500   0    L1Cache           Block_Ack   MM_F>MI_F   [0x7ad40, line 0x7ad40] 
+      159698500   0  Directory                PUTF   NO_F>WB     [0x7ad40, line 0x7ad40] 
+      159700500   0        Seq                Done       >       [0x7ad53, line 0x7ad40] 17 cycles
+      159700500   0    L1Cache       Writeback_Ack   MI_F>I      [0x7ad40, line 0x7ad40] 
+      159701000   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] ST
+      159701500   0    L1Cache               Store      I>IM     [0x7ad40, line 0x7ad40] 
+      159703500   0  Directory                GETX     WB>WB     [0x7ad40, line 0x7ad40] L1Cache-0
+      159706500   0  DirectoryWriteback_Exclusive_Dirty     WB>WB_E_W [0x7ad40, line 0x7ad40] L1Cache-0
+      159717500   0  Directory          Memory_Ack WB_E_W>E      [0x7ad40, line 0x7ad40] 
+      159717500   0  Directory                GETX      E>NO_B_W [0x7ad40, line 0x7ad40] 
+      159728500   0  Directory         Memory_Data NO_B_W>NO_B   [0x7ad40, line 0x7ad40] 
+      159730000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 58 cycles
+      159730000   0    L1Cache      Exclusive_Data     IM>MM_W   [0x7ad40, line 0x7ad40] 0Directory-0
+      159730500   0    L1Cache All_acks_no_sharers   MM_W>MM     [0x7ad40, line 0x7ad40] 
+      159730500   0        Seq               Begin       >       [0x7ad53, line 0x7ad40] FLUSH
+      159731000   0    L1Cache          Flush_line     MM>MM_F   [0x7ad40, line 0x7ad40] 
+      159733000   0  Directory                GETF   NO_B>NO_B_X [0x7ad40, line 0x7ad40] L1Cache-0
+      159736500   0  Directory            UnblockM NO_B_X>NO     [0x7ad40, line 0x7ad40] L1Cache-0
+      159736500   0  Directory                GETF     NO>NO_F   [0x7ad40, line 0x7ad40] 
+      159738500   0    L1Cache           Block_Ack   MM_F>MI_F   [0x7ad40, line 0x7ad40] 
+      159740500   0  Directory                PUTF   NO_F>WB     [0x7ad40, line 0x7ad40] 
+      159742500   0        Seq                Done       >       [0x7ad53, line 0x7ad40] 24 cycles
+      159742500   0    L1Cache       Writeback_Ack   MI_F>I      [0x7ad40, line 0x7ad40] 
+      159748500   0  DirectoryWriteback_Exclusive_Dirty     WB>WB_E_W [0x7ad40, line 0x7ad40] L1Cache-0
+      159751000   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] LD
+      159751500   0    L1Cache                Load      I>IS     [0x7ad40, line 0x7ad40] 
+      159753500   0  Directory                GETS WB_E_W>WB_E_W [0x7ad40, line 0x7ad40] L1Cache-0
+      159759500   0  Directory          Memory_Ack WB_E_W>E      [0x7ad40, line 0x7ad40] 
+      159759500   0  Directory                GETS      E>NO_B_W [0x7ad40, line 0x7ad40] 
+      159770500   0  Directory         Memory_Data NO_B_W>NO_B   [0x7ad40, line 0x7ad40] 
+      159772000   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 42 cycles
+      159772000   0    L1Cache      Exclusive_Data     IS>M_W    [0x7ad40, line 0x7ad40] 0Directory-0
+      159772500   0    L1Cache All_acks_no_sharers    M_W>M      [0x7ad40, line 0x7ad40] 
+      159775000   0        Seq               Begin       >       [0x7ad78, line 0x7ad40] ST
+      159775500   0        Seq                Done       >       [0x7ad78, line 0x7ad40] 1 cycles
+      159775500   0    L1Cache               Store      M>MM     [0x7ad40, line 0x7ad40] 
+      159776000   0        Seq               Begin       >       [0x7ad70, line 0x7ad40] ST
+      159776500   0        Seq                Done       >       [0x7ad70, line 0x7ad40] 1 cycles
+      159776500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159777000   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] ST
+      159777500   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 1 cycles
+      159777500   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159778500   0  Directory            UnblockM   NO_B>NO     [0x7ad40, line 0x7ad40] L1Cache-0
+      159817500   0        Seq               Begin       >       [0x7ad60, line 0x7ad40] ST
+      159818000   0        Seq                Done       >       [0x7ad60, line 0x7ad40] 1 cycles
+      159818000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159818500   0        Seq               Begin       >       [0x7ad58, line 0x7ad40] ST
+      159819000   0        Seq                Done       >       [0x7ad58, line 0x7ad40] 1 cycles
+      159819000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159819500   0        Seq               Begin       >       [0x7ad50, line 0x7ad40] ST
+      159820000   0        Seq                Done       >       [0x7ad50, line 0x7ad40] 1 cycles
+      159820000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159820500   0        Seq               Begin       >       [0x7ad48, line 0x7ad40] ST
+      159821000   0        Seq                Done       >       [0x7ad48, line 0x7ad40] 1 cycles
+      159821000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      159821500   0        Seq               Begin       >       [0x7ad40, line 0x7ad40] ST
+      159822000   0        Seq                Done       >       [0x7ad40, line 0x7ad40] 1 cycles
+      159822000   0    L1Cache               Store     MM>MM     [0x7ad40, line 0x7ad40] 
+      161455500   0        Seq               Begin       >       [0x7ad68, line 0x7ad40] LD
+      161456500   0        Seq                Done       >       [0x7ad68, line 0x7ad40] 2 cycles
+      161456500   0    L1Cache                Load     MM>MM     [0x7ad40, line 0x7ad40] 
