@@ -83,6 +83,8 @@ struct SequencerRequest
 
 std::ostream& operator<<(std::ostream& out, const SequencerRequest& obj);
 
+static DataBlock default_Data;
+
 class Sequencer : public RubyPort
 {
   public:
@@ -103,7 +105,7 @@ class Sequencer : public RubyPort
     void collateStats();
 
     void writeCallback(Addr address,
-                       DataBlock& data,
+                       DataBlock& data = default_Data,
                        const bool externalHit = false,
                        const MachineType mach = MachineType_NUM,
                        const Cycles initialRequestTime = Cycles(0),
