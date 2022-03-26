@@ -31,3 +31,17 @@ m5out
 configs/example/memcheck.cfg
 configs/dram/lowp_sweep.cfg
 .pyenv
+*.txt
+*.log
+/arch/*
+parsec*
+parsec*/
+results/
+spec_bench/*
+common/
+*.img*
+configs/example/components-library/*
+logs/*
+ckpt_dir/*
+
+
