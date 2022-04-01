@@ -63,7 +63,7 @@ RubyTester::RubyTester(const Params &p)
     m_deadlock_threshold(p.deadlock_threshold),
     m_num_writers(0),
     m_num_readers(0),
-    m_wakeup_frequency(5000),
+    m_wakeup_frequency(p.wakeup_frequency),
     m_check_flush(p.check_flush),
     m_num_inst_only_ports(p.port_cpuInstPort_connection_count),
     m_num_inst_data_ports(p.port_cpuInstDataPort_connection_count)
@@ -131,7 +131,6 @@ RubyTester::init()
     m_checkTable_ptr = new CheckTable(m_num_writers, m_num_readers, this);
 }
 
-//This func seem to be not used
 Port &
 RubyTester::getPort(const std::string &if_name, PortID idx)
 {
@@ -253,7 +252,7 @@ RubyTester::wakeup()
         assert(check_ptr != NULL);
         check_ptr->initiate();
 
-        // checkForDeadlock();
+        checkForDeadlock();
 
         schedule(checkStartEvent, curTick() + m_wakeup_frequency);
     } else {

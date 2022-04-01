@@ -122,6 +122,13 @@ enumeration(TesterStatus, desc="...") {
   Action_Pending,  desc="Action Pending";
   Ready,           desc="Ready";
   Check_Pending,   desc="Check Pending";
+  RemoteLoad1_Pending, desc="Remote Load 1 Pending";
+  RemoteLoad1_Ready, desc="Remote Load 1 Ready";
+  RemoteLoad2_Pending, desc="Remote Load 2 Pending";
+  RemoteLoad2_Ready, desc="Remote Load 1 Ready";
+  Requestor_Pending, desc="Local Requestor Load Pending";
+  Requestor_Ready, desc="Local Requestor Load Ready";
+  Flush_Pending, desc="Flush Pending";
 }
 
 // InvalidateGeneratorStatus

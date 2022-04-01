@@ -67,9 +67,6 @@ class Check
     void initiatePrefetch();
     void initiateAction();
     void initiateCheck();
-    void initiateRemoteLoad1();
-    void initiateRemoteLoad2();
-    void initiateRequestorLoad();
 
     void pickValue();
     void pickInitiatingNode();

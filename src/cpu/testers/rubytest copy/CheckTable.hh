@@ -27,69 +27,54 @@
  * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef __CPU_RUBYTEST_CHECK_HH__
-#define __CPU_RUBYTEST_CHECK_HH__
+#ifndef __CPU_RUBYTEST_CHECKTABLE_HH__
+#define __CPU_RUBYTEST_CHECKTABLE_HH__
 
 #include <iostream>
+#include <unordered_map>
+#include <vector>
 
-#include "cpu/testers/rubytest/RubyTester.hh"
 #include "mem/ruby/common/Address.hh"
-#include "mem/ruby/protocol/RubyAccessMode.hh"
-#include "mem/ruby/protocol/TesterStatus.hh"
 
 namespace gem5
 {
 
-namespace ruby
-{
-class SubBlock;
-} // namespace ruby
+class Check;
+class RubyTester;
 
-const int CHECK_SIZE_BITS = 2;
-const int CHECK_SIZE = (1 << CHECK_SIZE_BITS);
-
-class Check
+class CheckTable
 {
   public:
-    Check(Addr address, Addr pc, int _num_writers,
-          int _num_readers, RubyTester* _tester);
+    CheckTable(int _num_writers, int _num_readers, RubyTester* _tester);
+    ~CheckTable();
 
-    void initiate(); // Does Action or Check or nether
-    void performCallback(ruby::NodeID proc, ruby::SubBlock* data,
-        Cycles curTime);
-    Addr getAddress() const { return m_address; }
-    void changeAddress(Addr address);
+    Check* getRandomCheck();
+    Check* getCheck(Addr address);
+
+    //  bool isPresent(const Address& address) const;
+    //  void removeCheckFromTable(const Address& address);
+    //  bool isTableFull() const;
+    // Need a method to select a check or retrieve a check
 
     void print(std::ostream& out) const;
 
   private:
-    void initiateFlush();
-    void initiatePrefetch();
-    void initiateAction();
-    void initiateCheck();
-    void initiateRemoteLoad1();
-    void initiateRemoteLoad2();
-    void initiateRequestorLoad();
+    void addCheck(Addr address);
 
-    void pickValue();
-    void pickInitiatingNode();
+    // Private copy constructor and assignment operator
+    CheckTable(const CheckTable& obj);
+    CheckTable& operator=(const CheckTable& obj);
 
-    void debugPrint();
+    std::vector<Check*> m_check_vector;
+    std::unordered_map<Addr, Check*> m_lookup_map;
 
-    ruby::TesterStatus m_status;
-    uint8_t m_value;
-    int m_store_count;
-    ruby::NodeID m_initiatingNode;
-    Addr m_address;
-    Addr m_pc;
-    ruby::RubyAccessMode m_access_mode;
     int m_num_writers;
     int m_num_readers;
     RubyTester* m_tester_ptr;
 };
 
 inline std::ostream&
-operator<<(std::ostream& out, const Check& obj)
+operator<<(std::ostream& out, const CheckTable& obj)
 {
     obj.print(out);
     out << std::flush;
@@ -98,4 +83,4 @@ operator<<(std::ostream& out, const Check& obj)
 
 } // namespace gem5
 
-#endif // __CPU_RUBYTEST_CHECK_HH__
+#endif // __CPU_RUBYTEST_CHECKTABLE_HH__

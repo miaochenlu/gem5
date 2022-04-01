@@ -114,8 +114,7 @@ Check*
 CheckTable::getRandomCheck()
 {
     assert(m_check_vector.size() > 0);
-    return m_check_vector[0];
-    // return m_check_vector[random_mt.random<unsigned>(0, m_check_vector.size() - 1)];
+    return m_check_vector[random_mt.random<unsigned>(0, m_check_vector.size() - 1)];
 }
 
 Check*

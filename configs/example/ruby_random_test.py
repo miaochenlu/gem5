@@ -64,14 +64,14 @@ args = parser.parse_args()
 # Set the default cache size and associativity to be very small to encourage
 # races between requests and writebacks.
 #
-args.l1d_size="256B"
-args.l1i_size="256B"
-args.l2_size="512B"
-args.l3_size="1kB"
-args.l1d_assoc=2
-args.l1i_assoc=2
-args.l2_assoc=2
-args.l3_assoc=2
+# args.l1d_size="256B"
+# args.l1i_size="256B"
+# args.l2_size="512B"
+# args.l3_size="1kB"
+# args.l1d_assoc=2
+# args.l1i_assoc=2
+# args.l2_assoc=2
+# args.l3_assoc=2
 
 #
 # Create the ruby random tester
@@ -149,7 +149,7 @@ root = Root( full_system = False, system = system )
 root.system.mem_mode = 'timing'
 
 # Not much point in this being higher than the L1 latency
-m5.ticks.setGlobalFrequency('1ns')
+m5.ticks.setGlobalFrequency('2GHz')
 
 # instantiate configuration
 m5.instantiate()
